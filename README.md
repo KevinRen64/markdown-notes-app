@@ -1,4 +1,12 @@
-"# Markdown Notes App" 
+# Markdown Notes App
+
+## Tech Stack
+- Ruby on Rails (API)
+- React
+- SQLite
+
+
+
 
 API tests:
 
