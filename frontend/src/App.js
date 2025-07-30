@@ -32,7 +32,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container" >
       <h1>Markdown Notes</h1>
       <NoteEditor selectedNote={editingNote} onSave={handleSave} />
       <hr />

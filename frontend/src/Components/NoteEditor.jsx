@@ -46,7 +46,7 @@ const NoteEditor = ({ selectedNote, onSave }) => {
         <button type="submit">Save</button>
       </form>
       <h3>Preview</h3>
-      <div style={{ backgroundColor: "#f4f4f4", padding: "10px" }}>
+      <div className="preview">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
     </div>
